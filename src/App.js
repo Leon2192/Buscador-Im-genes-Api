@@ -3,12 +3,16 @@ import{ useState } from 'react';
 import './header.css';
 import './content.css';
 import './article.css';
+import HeaderComponent from "./components/Header/HeaderComponent";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [photos, setPhotos] = useState([])
   const open = url => window.open(url)
   console.log({photos})
   return (
+    <>
+    <HeaderComponent />
     <div>
       <header>
         <Formik
@@ -39,6 +43,7 @@ const App = () => {
       </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -9,7 +9,6 @@ html * {
 header {
     display: flex;
     justify-content: center;
-    background-color: #fff;
     padding: 22px;
     box-shadow: 1px 2px 5px rgb(0,0,0,0.3);
     z-index:2;
@@ -18,7 +17,7 @@ header {
 
 header input {
     outline: none;
-    border:solid 1px #eee;
+    border:solid 1px black;
     padding: 10px 5px;
-    border-radius: 4px;
+    border-radius: 7px;
 }
